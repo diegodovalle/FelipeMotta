@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Felipe Motta Designer CV</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/dr-framework.css" type="text/css" media="screen">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500,700,900' rel='stylesheet' type='text/css'>
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!--header-->
+<div id="container">
+  <header>
+    <div class="top wrapper">
+       <div class="logo">
+           <a href="index.html"><img style="width:270px; height:auto; margin-bottom:20px;" src="images/logo.png"></a>
+       </div>
+
+      <!-- Navigation -->
+      <div id="nav">
+        <ul id="navlist" class="sf-menu clearfix">
+          <li class="current"><a href="index.html"><div class="main-a"> Home </div> <div class="nav-border"></div> <div class="span">Meu trabalho</div></a>
+           
+          </li>
+          <li><a href="about.html"><div class="main-a"> Sobre </div> <div class="nav-border"></div> <div class="span">Quem sou eu</div></a></li>
+         
+          
+          <li><a href="contact.html"><div class="main-a"> Contato </div> <div class="nav-border"></div> <div class="span">Fale comigo</div></a></li>
+        </ul>
+      </div>
+      
+      
+      <div class="clear"></div>
+    </div>
+  </header>
+  <!--end header-->
+
+    <!--front-->
+    <div class="front-image">
+    	<img src="images/blog.jpg">
+      <h1>CONTATO</h1>
+    </div>
+    <!--end front-->
+    <div class="wrapper">
+        <div class="map">
+            <div id="map"></div>
+            <h3>Entre em contato comigo</h3>
+            <p>+55 21 988972183 <br>
+            contato@felipemotta.com.br
+            </p>
+        </div>
+        <!-- End Map -->
+        <div class="contact-box">
+          <form id="contact-form" action="valida.php" method="post">
+              <h1>Me envie uma mensagem</h1>
+              <div class="dark">
+                <div class="text-fields column4">
+                  <div class="float-input">
+                    <input name="name" id="name" type="text" value="Nome" onClick="javascript:this.value=''">
+                    <span><i class="fa fa-user"></i></span>
+                  </div>
+                  <div class="float-input">
+                    <input name="email" id="email" type="text" value="E-mail" onClick="javascript:this.value=''">
+                    <span><i class="fa fa-envelope-o"></i></span>
+                  </div>
+                  <div class="float-input">
+                    <input name="website" id="website" type="text" value="Website ou Blog" onClick="javascript:this.value=''">
+                    <span><i class="fa fa-link"></i></span>
+                  </div>
+                  
+                </div>
+
+                <div class="submit-area column8">
+                  <textarea name="comment" id="comment" onClick="javascript:this.value=''"></textarea>
+                  <input type="submit" class="main-button" value="Enviar">
+                  <div id="msg" class="message"></div>
+                </div>
+              </div>
+          </form>
+      </div>
+      <!-- End Contact Box -->
+    </div>
+ 
+   <footer>
+
+    <div class="copyright wrapper">
+      <p>© 2014 Felipe Motta, Todos os direitos reservados.</p>
+
+      <div class="socials">
+        
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--end footer-->
+
+</div>
+<!-- End Container -->
+
+  <div class="preloader">
+    <img alt="" src="images/preloader.gif">
+  </div>
+  <!--jquery-->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="js/gmap3.min.js"></script>
+  
+  <!--end jquery-->
+</body>
+</html>
